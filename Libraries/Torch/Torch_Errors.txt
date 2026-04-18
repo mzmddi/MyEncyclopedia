@@ -1,0 +1,11 @@
+
+/--- INTRODUCTION ---
+|   
+|   This document is record of errors throughout time. 
+|   The errors are organised alphabetically by it's official error message. 
+|   Use cmd+F to search for a particular error
+|   
+\ --------------------
+
+
+[1] - 
