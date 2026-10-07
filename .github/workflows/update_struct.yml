@@ -1,0 +1,23 @@
+#
+#
+#
+
+name: Update Structure JSON
+
+on:
+  workflow_dispatch:
+
+jobs:
+  job1:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Update struct.json
+        run: python3 meta/update_struct.py
